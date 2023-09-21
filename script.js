@@ -3,11 +3,7 @@ document.getElementById("12").readOnly= true;
 document.getElementById("13").value = 2;
 document.getElementById("13").readOnly= true;
 
-document.getElementById("21").value = 1;
-document.getElementById("21").readOnly= true;
 
-document.getElementById("22").value = 6;
-document.getElementById("22").readOnly= true;
 
 document.getElementById("32").value = 4;
 document.getElementById("32").readOnly= true;
