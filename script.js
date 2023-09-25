@@ -3,8 +3,7 @@ document.getElementById("12").readOnly= true;
 
 
 
-doc
-document.getElementById("33").readOnly= true;
+
 
 document.getElementById("16").value = 6;
 document.getElementById("16").readOnly= true;
