@@ -7,8 +7,6 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("24").value = 9;
-document.getElementById("24").readOnly= true;
 
 document.getElementById("34").value = 8;
 document.getElementById("34").readOnly= true;
