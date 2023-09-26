@@ -11,8 +11,7 @@ document.getElementById("12").readOnly= true;
 
 
 
-//document.getElementById("38").value = 2;
-// document.getElementById("38").readOnly= true;
+
 
 document.getElementById("41").value = 4;
 document.getElementById("41").readOnly= true;
