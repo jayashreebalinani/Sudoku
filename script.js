@@ -10,11 +10,6 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("29").value = 4;
-document.getElementById("29").readOnly= true;
-
-document.getElementById("37").value = 6;
-document.getElementById("37").readOnly= true;
 
 //document.getElementById("38").value = 2;
 // document.getElementById("38").readOnly= true;
