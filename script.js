@@ -14,10 +14,7 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("53").readOnly= true;
 
-document.getElementById("64").value = 1;
-document.getElementById("64").readOnly= true;
 
 document.getElementById("40").value = 2;
 document.getElementById("40").readOnly= true;
