@@ -13,10 +13,6 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("41").value = 4;
-document.getElementById("41").readOnly= true;
-
-document.getElementById("52").value = 8;
 document.getElementById("52").readOnly= true;
 
 document.getElementById("53").value = 3;
