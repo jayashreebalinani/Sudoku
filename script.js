@@ -13,9 +13,7 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("52").readOnly= true;
 
-document.getElementById("53").value = 3;
 document.getElementById("53").readOnly= true;
 
 document.getElementById("64").value = 1;
