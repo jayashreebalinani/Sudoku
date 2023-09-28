@@ -16,10 +16,7 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("40").value = 2;
-document.getElementById("40").readOnly= true;
 
-document.getElementById("54").value = 1;
 document.getElementById("54").readOnly= true;
 
 document.getElementById("47").value = 8;
