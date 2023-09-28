@@ -17,7 +17,6 @@ document.getElementById("12").readOnly= true;
 
 
 
-document.getElementById("54").readOnly= true;
 
 document.getElementById("47").value = 8;
 document.getElementById("47").readOnly= true;
