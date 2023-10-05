@@ -74,24 +74,29 @@ function setgame()
         }
     }
 }
-
-function selectnumber()
-{
-    
-    if(numselected != null)
-    {
-        numselected.classList.remove("numberselected")
-    }
-  //  numselected.classList.add("numberselected")
-  numselected = this
-    numselected.classList.add("numberselected")
-    
-}
-
 function selectcells()
 {
     if(numselected)
     {
-        this.innerText = numselected.id;
+        if(this.innerText != "")
+        {
+            return;
+        }
+        
+      //  this.innerText = numselected.id;
+    }
+    let ids = this.id.split("-")
+    var f  = parseInt(ids[0])
+    var s = parseInt(ids[1])
+
+
+    if(solution[f][s] == numselected.id)
+    {
+        this.innerText = numselected.id
+    }
+    else
+    {
+        errors += 1
+        document.getElementById("errors").innerText = errors
     }
 }
