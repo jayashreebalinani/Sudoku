@@ -55,14 +55,14 @@ hr {
     background-color: rgb(163, 163, 163);
 }
 
-.tile-start {
-    background-color: whitesmoke;
+.cellsfilled{
+    background-color: rgb(238, 231, 231);
 }
 
-.horizontal-line {
+.divider{
     border-bottom: 1px solid black;
 }
 
-.vertical-line {
+.divider1 {
     border-right: 1px solid black;
 }
