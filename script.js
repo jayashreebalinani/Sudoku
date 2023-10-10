@@ -1,4 +1,5 @@
 
+
 let numselected = null
 var cellselected = null;
 
@@ -74,6 +75,20 @@ function setgame()
         }
     }
 }
+
+function selectnumber()
+{
+    
+    if(numselected != null)
+    {
+        numselected.classList.remove("numberselected")
+    }
+  //  numselected.classList.add("numberselected")
+  numselected = this
+    numselected.classList.add("numberselected")
+    
+}
+
 function selectcells()
 {
     if(numselected)
