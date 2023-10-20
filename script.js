@@ -2,7 +2,7 @@
 let numselected = null
 var cellselected = null;
 
-var errors = 0
+var errors = 0;
 
 var board = [
     "--74916-5",
