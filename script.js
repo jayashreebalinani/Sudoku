@@ -1,4 +1,4 @@
-mmmmmmmmmmmmmm
+
 let numselected = null
 var cellselected = null;
 
