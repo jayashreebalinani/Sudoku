@@ -90,8 +90,8 @@ function selectcells() {
             return;
         }
 
-        // "0-0" "0-1" .. "3-1"
-        let coords = this.id.split("-"); //["0", "0"]
+        
+        let coords = this.id.split("-"); 
         let r = parseInt(coords[0]);
         let c = parseInt(coords[1]);
 
