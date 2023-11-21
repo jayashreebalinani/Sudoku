@@ -57,7 +57,7 @@ function setgame()
                 cells.innerText=board[i][j]
                
                 cells.classList.add("cellsfilled")
-               // document.getElementById(i+"-"+j).readOnly= true;
+               
 
                 
             }
