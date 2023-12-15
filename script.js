@@ -1,6 +1,6 @@
 
 
-let numselected = 
+let numselected = null;
 var cellselected = null;
 
 var errors = 0;
